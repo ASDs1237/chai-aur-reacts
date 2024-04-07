@@ -1,0 +1,60 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "02counter",
+			"problemMatcher": [],
+			"label": "npm: dev - 02counter",
+			"detail": "vite"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "03tailwindprops",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - 03tailwindprops",
+			"detail": "vite build"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "03tailwindprops",
+			"problemMatcher": [],
+			"label": "npm: dev - 03tailwindprops",
+			"detail": "vite"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "05passwordgenerator",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - 05passwordgenerator",
+			"detail": "vite build"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "05passwordgenerator",
+			"problemMatcher": [],
+			"label": "npm: dev - 05passwordgenerator",
+			"detail": "vite",
+			"group": "build"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "06bgChanger",
+			"problemMatcher": [],
+			"label": "npm: dev - 06bgChanger",
+			"detail": "vite",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
